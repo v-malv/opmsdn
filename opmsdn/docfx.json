@@ -14,14 +14,26 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.GIF",
+          "**/*.BMP",
+          "**/*_themes/**"
         ],
         "exclude": [
           "**/obj/**"
         ]
       }
     ],
-    "template": "op.html",
-    "dest": "opmsdn"
-  }
+    "dest": "_site",
+    "template": "docs.html",
+    "globalMetadata": {
+      "layout": "Conceptual",
+      "breadcrumb_path": "/CapsToOpsTest_EMS/v1/toc.json"
+    }
+  },
+  "render": {
+    "theme": "hyde",
+    "dest": "_output"
+  },
+  "basepath": "/Intune"
 }
