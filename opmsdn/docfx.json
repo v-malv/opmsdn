@@ -22,6 +22,10 @@
       }
     ],
     "template": "op.html",
-    "dest": "opmsdn"
+    "dest": "opmsdn",
+    "globalMetadata": {
+      "layout": "Conceptual",
+      "breadcrumb_path": "/bcmsdn/toc.json"
+    }
   }
 }
