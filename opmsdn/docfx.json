@@ -2,9 +2,8 @@
   "build": {
     "content": [
       {
-        "files": [
-          "**/*.md"
-        ],
+        "files": ["**/*.yml"],
+        "dest":  "docresource",
         "exclude": [
           "**/obj/**"
         ]
