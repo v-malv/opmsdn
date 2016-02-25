@@ -24,14 +24,18 @@
         ],
         "exclude": [
           "**/obj/**"
-        ]
+        ],
+        "src": null,
+        "dest": null
       }
     ],
-    "template": "op.html",
-    "dest": "opmsdn",
-    "globalMetadata": {
-      "layout": "Conceptual",
-      "breadcrumb_path": "/bcmsdn/toc.json"
-    }
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {},
+    "fileMetadata": {},
+    "template": [
+      "op.html"
+    ],
+    "dest": "opmsdn"
   }
 }
